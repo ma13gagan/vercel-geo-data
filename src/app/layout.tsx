@@ -1,7 +1,10 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { ServerRuntime } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const runtime: ServerRuntime = "edge";
 
 export const metadata = {
   title: "Vercel Geo Data",
