@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Vercel Geo Data",
-  description: "Testing the vercel geo info headers",
+  description: "Testing the vercel geo headers",
 };
 
 export default function RootLayout({
